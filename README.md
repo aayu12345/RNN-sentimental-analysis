@@ -3,6 +3,8 @@
 This project performs movie-review sentiment analysis on the IMDB dataset using RNNs.
 ### try the live demo here:
 
+[Try the Live Demo!](https://rnn-sentimental-analysis-ysmdwlkkxao9xwcftvsfno.streamlit.app/)
+
 
 ## flow chart of the project
 ```mermaid
