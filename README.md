@@ -2,6 +2,13 @@
 
 This project performs movie-review sentiment analysis on the IMDB dataset using RNNs.
 
+## flow chart of the project
+```mermaid
+graph TD;
+IMDB Dataset --> Feature Engineering;
+Feature Engineering --> Embedding layer + Simple RNN
+```
+
 ## Getting Started
 
 Follow these steps to set up and run the project:
