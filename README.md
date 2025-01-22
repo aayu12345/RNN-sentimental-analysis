@@ -4,9 +4,11 @@ This project performs movie-review sentiment analysis on the IMDB dataset using 
 
 ## flow chart of the project
 ```mermaid
-graph TD;
-IMDB Dataset --> Feature Engineering;
-Feature Engineering --> Embedding layer + Simple RNN
+flowchart LR
+    A[Dataset] --> B[Feature Engineering]
+    B --> C[Simple RNN with Embedding Layers]
+    C --> D[Streamlit Web App]
+    D --> E[Deployment]
 ```
 
 ## Getting Started
