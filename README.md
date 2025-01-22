@@ -19,3 +19,19 @@ venv\Scripts\activate
 
 # For macOS/Linux:
 source venv/bin/activate
+```
+### 2. Install Dependencies
+
+After activating the virtual environment, install all the required libraries:
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Streamlit App
+Finally, to launch the Streamlit app, run:
+```bash
+streamlit run main.py
+```
+
+This will open the Streamlit page in your browser tab.
+
+
